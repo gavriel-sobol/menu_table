@@ -29,7 +29,8 @@ body{
     box-shadow: 0px 0px 2px rgba(0,0,0,0.5);
     }
 .block-tablemenu__table ul{
-    margin-top: 15px;}
+    margin-top: 15px;
+    display:none;}
 
 .block-tablemenu__table ul li{
     color: #6FBF7F;

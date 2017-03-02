@@ -40,7 +40,8 @@ body{
 .block-tablemenu__table td i{
     float: right;
     color: #6FBF7F;
-     transition: all  1s;}
+     transition: all  1s;
+     rotate(90deg);}
  
 .block-tablemenu__table .rotate90{
     transform: 
@@ -50,14 +51,12 @@ body{
 
     
 .block-tablemenu__table .visiblenone{
-  overflow: hidden;
-  height:0px;
-  max-height:0px;
-  transition: all  1s;
-    }
+     overflow: hidden;
+     height:0px;
+     max-height:0px;
+     transition: all  1s;}
 
  .block-tablemenu__table .visible{
-  height:100%;
-  max-height:200px;
-  transition: all  2s;
-  }
+     height:100%;
+     max-height:200px;
+     transition: all  2s;}
